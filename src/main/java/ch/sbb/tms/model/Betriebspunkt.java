@@ -1,9 +1,7 @@
 package ch.sbb.tms.model;
 
 /**
- * 
- * @author fsnets20
- *
+ * Defines the a point in the SBB Network Topology, often called a BP
  */
 public class Betriebspunkt {
 
@@ -11,15 +9,16 @@ public class Betriebspunkt {
 
 	/**
 	 * 
-	 * @return
+	 * @return the abbreviation of the BP may be <code>null</code>
 	 */
 	public String getAbkuerzung() {
 		return abkuerzung;
 	}
 
-	/**
+	/** Set the abbreviation, null may be set although it doesn't make sense
 	 * 
 	 * @param abkuerzung
+	 *            the abbreviation to set
 	 */
 	public void setAbkuerzung(String abkuerzung) {
 		this.abkuerzung = abkuerzung;

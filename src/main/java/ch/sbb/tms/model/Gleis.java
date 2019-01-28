@@ -1,47 +1,35 @@
 package ch.sbb.tms.model;
 
 /**
- * 
- * @author fsnets20
- *
+ * Contains an id for the HGBPHauptgleis
  */
 public class Gleis {
 
-	/**
-	 * 
-	 */
-	private Long gleisIdentifier;
+	private String hgbpHauptgleisIndentifier;
 
 	/**
-	 * 
-	 * @return
+	 * @return may be <code>null</code>
 	 */
-	public Long getGleisIdentifier() {
-		return gleisIdentifier;
+	public String getHgbpHauptgliesIndentifier() {
+		return hgbpHauptgleisIndentifier;
 	}
 
 	/**
-	 * 
-	 * @param gleisIdentifier
+	 * @param hgbpHauptgliesIndentifier
+	 *            may not <code>null</code>
 	 */
-	public void setGleisIdentifier(Long gleisIdentifier) {
-		this.gleisIdentifier = gleisIdentifier;
+	public void setHgbpHauptgliesIndentifier(String hgbpHauptgleisIndentifier) {
+		this.hgbpHauptgleisIndentifier = hgbpHauptgleisIndentifier;
 	}
 
-	/**
-	 * 
-	 */
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((gleisIdentifier == null) ? 0 : gleisIdentifier.hashCode());
+		result = prime * result + ((hgbpHauptgleisIndentifier == null) ? 0 : hgbpHauptgleisIndentifier.hashCode());
 		return result;
 	}
 
-	/**
-	 * 
-	 */
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -51,10 +39,10 @@ public class Gleis {
 		if (getClass() != obj.getClass())
 			return false;
 		Gleis other = (Gleis) obj;
-		if (gleisIdentifier == null) {
-			if (other.gleisIdentifier != null)
+		if (hgbpHauptgleisIndentifier == null) {
+			if (other.hgbpHauptgleisIndentifier != null)
 				return false;
-		} else if (!gleisIdentifier.equals(other.gleisIdentifier))
+		} else if (!hgbpHauptgleisIndentifier.equals(other.hgbpHauptgleisIndentifier))
 			return false;
 		return true;
 	}
