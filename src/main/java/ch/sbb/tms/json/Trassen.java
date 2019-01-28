@@ -4,7 +4,10 @@ import java.util.List;
 
 public class Trassen {
 	
-	Id id;
 	List<EinzelTrassen> einzeltrassen;
+
+	public void setEinzeltrassen(List<EinzelTrassen> einzeltrassen) {
+		this.einzeltrassen = einzeltrassen;
+	}
 
 }
