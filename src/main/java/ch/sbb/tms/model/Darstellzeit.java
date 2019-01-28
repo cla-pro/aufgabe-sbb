@@ -5,19 +5,19 @@ import java.time.Instant;
 public class Darstellzeit {
 
 	/**
-	 * 
+	 * The geographical location
 	 */
 	private Betriebspunkt betriebspunkt;
 
 	/**
-	 * 
+	 * The arrival train of a train
 	 */
-	private Instant von;
+	private Instant an;
 
 	/**
-	 * 
+	 * The departure time of a time
 	 */
-	private Instant bis;
+	private Instant ab;
 
 	/**
 	 * 
@@ -30,6 +30,7 @@ public class Darstellzeit {
 	/**
 	 * 
 	 * @param betriebspunkt
+	 *            may not <code>null</code>
 	 */
 	public void setBetriebspunkt(Betriebspunkt betriebspunkt) {
 		this.betriebspunkt = betriebspunkt;
@@ -37,32 +38,36 @@ public class Darstellzeit {
 
 	/**
 	 * 
-	 * @return
+	 * @return may be <code>null</code>
 	 */
-	public Instant getVon() {
-		return von;
+	public Instant getAn() {
+		return an;
 	}
 
 	/**
 	 * 
-	 * @param von
+	 * @param an
+	 *            may be <code>null</code>
 	 */
-	public void setVon(Instant von) {
-		this.von = von;
+	public void setAn(Instant an) {
+		this.an = an;
 	}
 
 	/**
+	 * @return may be <code>null</code>
+	 * 
 	 */
-	public Instant getBis() {
-		return bis;
+	public Instant getAb() {
+		return ab;
 	}
 
 	/**
 	 * 
-	 * @param bis
+	 * @param ab
+	 *            may be <code>null</code>
 	 */
-	public void setBis(Instant bis) {
-		this.bis = bis;
+	public void setAb(Instant ab) {
+		this.ab = ab;
 	}
 
 	@Override
@@ -70,8 +75,8 @@ public class Darstellzeit {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((betriebspunkt == null) ? 0 : betriebspunkt.hashCode());
-		result = prime * result + ((bis == null) ? 0 : bis.hashCode());
-		result = prime * result + ((von == null) ? 0 : von.hashCode());
+		result = prime * result + ((ab == null) ? 0 : ab.hashCode());
+		result = prime * result + ((an == null) ? 0 : an.hashCode());
 		return result;
 	}
 
@@ -89,15 +94,15 @@ public class Darstellzeit {
 				return false;
 		} else if (!betriebspunkt.equals(other.betriebspunkt))
 			return false;
-		if (bis == null) {
-			if (other.bis != null)
+		if (ab == null) {
+			if (other.ab != null)
 				return false;
-		} else if (!bis.equals(other.bis))
+		} else if (!ab.equals(other.ab))
 			return false;
-		if (von == null) {
-			if (other.von != null)
+		if (an == null) {
+			if (other.an != null)
 				return false;
-		} else if (!von.equals(other.von))
+		} else if (!an.equals(other.an))
 			return false;
 		return true;
 	}

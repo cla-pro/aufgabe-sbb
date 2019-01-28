@@ -1,30 +1,29 @@
 package ch.sbb.tms.model;
 
 /**
- * 
- * @author fsnets20
+ * The location of a train on a platform at a particular time or {@link Darstellzeit} 
  *
  */
-public class Standtord {
+public class Standort {
 
 	/**
-	 * 
+	 * The phsyical location 
 	 */
 	private Betriebspunkt betriebspunkt;
 
 	/**
-	 * 
+	 * The time window 
 	 */
 	private Darstellzeit darstellzeit;
 
 	/**
-	 * 
+	 * The platform
 	 */
 	private Gleis gleis;
 
 	/**
 	 * 
-	 * @return
+	 * @return may not be <code>null</code>
 	 */
 	public Betriebspunkt getBetriebspunkt() {
 		return betriebspunkt;
@@ -32,7 +31,7 @@ public class Standtord {
 
 	/**
 	 * 
-	 * @param betriebspunkt
+	 * @param betriebspunkt may not be <code>null</code>
 	 */
 	public void setBetriebspunkt(Betriebspunkt betriebspunkt) {
 		this.betriebspunkt = betriebspunkt;
@@ -40,7 +39,7 @@ public class Standtord {
 
 	/**
 	 * 
-	 * @return
+	 * @return may not be <code>null</code>
 	 */
 	public Darstellzeit getDarstellzeit() {
 		return darstellzeit;
@@ -48,7 +47,7 @@ public class Standtord {
 
 	/**
 	 * 
-	 * @param darstellzeit
+	 * @param darstellzeit may not be <code>null</code>
 	 */
 	public void setDarstellzeit(Darstellzeit darstellzeit) {
 		this.darstellzeit = darstellzeit;
@@ -56,7 +55,7 @@ public class Standtord {
 
 	/**
 	 * 
-	 * @return
+	 * @return may be <code>null</code>
 	 */
 	public Gleis getGleis() {
 		return gleis;
@@ -64,7 +63,7 @@ public class Standtord {
 
 	/**
 	 * 
-	 * @param gleis
+	 * @param gleis may be <code>null</code>
 	 */
 	public void setGleis(Gleis gleis) {
 		this.gleis = gleis;
@@ -88,7 +87,7 @@ public class Standtord {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Standtord other = (Standtord) obj;
+		Standort other = (Standort) obj;
 		if (betriebspunkt == null) {
 			if (other.betriebspunkt != null)
 				return false;

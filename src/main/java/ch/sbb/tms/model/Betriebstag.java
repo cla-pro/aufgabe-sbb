@@ -1,15 +1,19 @@
 package ch.sbb.tms.model;
 
+/**
+ * A time construct based on the Fahrplan starting date
+ */
 public class Betriebstag {
 
 	/**
-	 * 
+	 * a numeric representation, for example #00000001..... the
+	 * {@link GleisBelegung} is valid on the first day of the Fahrplan
 	 */
 	private Long day;
 
 	/**
 	 * 
-	 * @return
+	 * @return may be <code>null</code>
 	 */
 	public Long getDay() {
 		return day;
@@ -18,6 +22,7 @@ public class Betriebstag {
 	/**
 	 * 
 	 * @param day
+	 *            may be <code>null</code>
 	 */
 	public void setDay(Long day) {
 		this.day = day;

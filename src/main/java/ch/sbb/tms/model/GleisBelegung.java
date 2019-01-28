@@ -16,7 +16,7 @@ public class GleisBelegung {
 	/**
 	 * 
 	 */
-	private List<Standtord> standtord;
+	private List<Standort> standtord;
 
 	/**
 	 * 
@@ -27,7 +27,7 @@ public class GleisBelegung {
 	 * 
 	 * @return
 	 */
-	public List<Standtord> getStandtord() {
+	public List<Standort> getStandtord() {
 		return standtord;
 	}
 
@@ -35,7 +35,7 @@ public class GleisBelegung {
 	 * 
 	 * @param standtord
 	 */
-	public void setStandtord(List<Standtord> standtord) {
+	public void setStandtord(List<Standort> standtord) {
 		this.standtord = standtord;
 	}
 
