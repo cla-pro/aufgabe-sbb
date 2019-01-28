@@ -7,7 +7,7 @@ public class Darstellzeit {
 	/**
 	 * The geographical location
 	 */
-	private Betriebspunkt betriebspunkt;
+	private Betriebstag betriebstag;
 
 	/**
 	 * The arrival train of a train
@@ -23,17 +23,17 @@ public class Darstellzeit {
 	 * 
 	 * @return
 	 */
-	public Betriebspunkt getBetriebspunkt() {
-		return betriebspunkt;
+	public Betriebstag getBetriebstag() {
+		return betriebstag;
 	}
 
 	/**
 	 * 
-	 * @param betriebspunkt
+	 * @param betriebstag
 	 *            may not <code>null</code>
 	 */
-	public void setBetriebspunkt(Betriebspunkt betriebspunkt) {
-		this.betriebspunkt = betriebspunkt;
+	public void setBetriebstag(Betriebstag betriebstag) {
+		this.betriebstag = betriebstag;
 	}
 
 	/**
@@ -74,7 +74,7 @@ public class Darstellzeit {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((betriebspunkt == null) ? 0 : betriebspunkt.hashCode());
+		result = prime * result + ((betriebstag == null) ? 0 : betriebstag.hashCode());
 		result = prime * result + ((ab == null) ? 0 : ab.hashCode());
 		result = prime * result + ((an == null) ? 0 : an.hashCode());
 		return result;
@@ -89,10 +89,10 @@ public class Darstellzeit {
 		if (getClass() != obj.getClass())
 			return false;
 		Darstellzeit other = (Darstellzeit) obj;
-		if (betriebspunkt == null) {
-			if (other.betriebspunkt != null)
+		if (betriebstag == null) {
+			if (other.betriebstag != null)
 				return false;
-		} else if (!betriebspunkt.equals(other.betriebspunkt))
+		} else if (!betriebstag.equals(other.betriebstag))
 			return false;
 		if (ab == null) {
 			if (other.ab != null)

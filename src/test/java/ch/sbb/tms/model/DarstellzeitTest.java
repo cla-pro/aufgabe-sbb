@@ -10,34 +10,34 @@ import org.junit.Test;
 public class DarstellzeitTest {
 
 	private Darstellzeit obj;
-	private Betriebspunkt betriebspunkt;
+	private Betriebstag betriebstag;
 	private Instant von;
 	private Instant bis;
 	
 	@Before
 	public void setup() {
 		obj = new Darstellzeit();		
-		betriebspunkt = new Betriebspunkt();
+		betriebstag = new Betriebstag();
 		von = Instant.now();
 		bis = Instant.now().plusSeconds(3000);
 	}
 	
 	@Test
 	public void darstellzeit_shouldSetVon() {
-		obj.setVon(von);
-		Assert.assertEquals(von, obj.getVon());
+		obj.setAb(von);
+		Assert.assertEquals(von, obj.getAb());
 	}
 	
 	@Test
 	public void darstellzeit_shouldSetBis() {
-		obj.setBis(bis);
-		Assert.assertEquals(bis, obj.getBis());
+		obj.setAn(bis);
+		Assert.assertEquals(bis, obj.getAn());
 	}
 	
 	@Test
-	public void darstellzeit_shouldSetBetriebspunkt() {
-		obj.setBetriebspunkt(betriebspunkt);
-		Assert.assertEquals(betriebspunkt, obj.getBetriebspunkt());
+	public void darstellzeit_shouldSetBetriebstag() {
+		obj.setBetriebstag(betriebstag);
+		Assert.assertEquals(betriebstag, obj.getBetriebstag());
 	}
 
 }
