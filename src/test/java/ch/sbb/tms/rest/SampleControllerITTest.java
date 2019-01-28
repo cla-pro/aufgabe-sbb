@@ -15,7 +15,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import ch.sbb.tms.app.SbbaufgabeApp;
+import ch.sbb.tms.app.GleisBelegungApp;
 import ch.sbb.tms.rest.SampleController;
 
 /**
@@ -25,7 +25,7 @@ import ch.sbb.tms.rest.SampleController;
  * @since
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment=RANDOM_PORT, classes = { SbbaufgabeApp.class})
+@SpringBootTest(webEnvironment=RANDOM_PORT, classes = { GleisBelegungApp.class})
 @ActiveProfiles("test")
 public class SampleControllerITTest {
 
