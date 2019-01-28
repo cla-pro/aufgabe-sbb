@@ -16,7 +16,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -31,10 +31,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.springframework.cloud</groupId> -->
-<!-- 			<artifactId>spring-cloud-starter-sleuth</artifactId> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.springframework.cloud</groupId> -->
+		<!-- <artifactId>spring-cloud-starter-sleuth</artifactId> -->
+		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -47,15 +47,25 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
 	</dependencies>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -67,15 +77,16 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<!-- The spring-boot:run maven goal adds src/main/resources directly to the classpath (for hot reloading purposes).
-					This circumvents the resource filtering and this feature. -->
+					<!-- The spring-boot:run maven goal adds src/main/resources directly 
+						to the classpath (for hot reloading purposes). This circumvents the resource 
+						filtering and this feature. -->
 					<addResources>false</addResources>
 				</configuration>
 			</plugin>
@@ -97,7 +108,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
@@ -121,14 +132,14 @@
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
 			<id>hosted.cloud.releases</id>
-			<!--TODO adapt this repository-->
+			<!--TODO adapt this repository -->
 			<url>http://repo.sbb.ch/content/repositories/hosted.cloud.releases</url>
 			<layout>default</layout>
 		</repository>
 		<snapshotRepository>
 			<uniqueVersion>true</uniqueVersion>
 			<id>hosted.cloud.snapshots</id>
-			<!--TODO adapt this repository-->
+			<!--TODO adapt this repository -->
 			<url>http://repo.sbb.ch/content/repositories/hosted.cloud.snapshots</url>
 			<layout>default</layout>
 		</snapshotRepository>
