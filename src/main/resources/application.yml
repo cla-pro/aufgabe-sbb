@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  sleuth:
+    sampler:
+      percentage: 1 # to avoid that sleuth drops measures
+
+
+# path for actuator
+management:
+  context-path: /admin
+
+# disable sensible actuator endpoints
+endpoints:
+  enabled: false
+  info.enabled: true
+  health.enabled: true
+
+
+# this info may be accessed via actuator
+info:
+  app:
+    name: sbbaufgabe
+    version: @version@
+    buildtime: @timestamp@
+
+logging:
+  level:
+    org.springframework.cloud: 'INFO'
+    org.springframework.security: 'INFO'
+
+
