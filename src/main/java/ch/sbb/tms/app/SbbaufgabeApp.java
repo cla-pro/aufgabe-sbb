@@ -2,7 +2,7 @@
  * Copyright (C) Schweizerische Bundesbahnen SBB, 2016.
  */
 
-package ch.sbb.myproject;
+package ch.sbb.tms.app;
 
 
 import org.springframework.boot.SpringApplication;

@@ -2,13 +2,10 @@
  * Copyright (C) Schweizerische Bundesbahnen SBB, 2016.
  */
 
-package ch.sbb.myproject.controller;
+package ch.sbb.tms.rest;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import ch.sbb.myproject.model.Greeting;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Simple REST controller with Spring MVC. For a more complete REST sample refer
@@ -27,8 +24,8 @@ public class SampleController {
      * @param name Name used in greeting (not required, default value: "Welt").
      * @return Greeting
      */
-    @RequestMapping(value="/greeting", method= RequestMethod.GET)
-    public ResponseEntity<?> getGreeting(@RequestParam(value = "name", required = false, defaultValue = "Welt") String name) {
-        return new ResponseEntity<>(new Greeting("de", "Hallo " + name), HttpStatus.OK);
-    }
+//    @RequestMapping(value="/greeting", method= RequestMethod.GET)
+//    public ResponseEntity<?> getGreeting(@RequestParam(value = "name", required = false, defaultValue = "Welt") String name) {
+//        return new ResponseEntity<>(new Greeting("de", "Hallo " + name), HttpStatus.OK);
+//    }
 }

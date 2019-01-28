@@ -2,7 +2,7 @@
  * Copyright (C) Schweizerische Bundesbahnen SBB, 2016.
  */
 
-package ch.sbb.myproject.controller;
+package ch.sbb.tms.rest;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
@@ -15,7 +15,8 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import ch.sbb.myproject.SbbaufgabeApp;
+import ch.sbb.tms.app.SbbaufgabeApp;
+import ch.sbb.tms.rest.SampleController;
 
 /**
  * Integration tests for {@link SampleController}.
