@@ -1,0 +1,811 @@
+{
+	"trassen": [{
+			"id": {
+				"fpId": 2018,
+				"trassenIdentifier": "1111-001"
+			},
+			"deleted": false,
+			"arrivalTimeHere": 1544006648089,
+			"updateTimeInOrigin": 1507549898000,
+			"fahrplanPeriodeStart": 1512860400000,
+			"fahrplanPeriodeEnd": 1544223600000,
+			"katalogtrasse": false,
+			"laufnummer": 1,
+			"studie": false,
+			"abbestellt": false,
+			"bezeichnung": "GsabWassD",
+			"zugnummer": "1111",
+			"zugnummernErgaenzung": "",
+			"unoVersion": 1506884829008,
+			"verstaendigungsStatus": "NICHT_OEFFENTLICH",
+			"einzeltrassen": [{
+					"betriebstage": {
+						"value": "00000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+						"description": "Mo-So"
+					},
+					"trassenlauf": [{
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 60666,
+							"betrieblichAn": 60654,
+							"betriebspunktId": 3721,
+							"fahrtrichtungswechsel": false,
+							"hgbpHauptgleis": 6519,
+							"reihenfolge": 0,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 142188,
+									"gleisknotenVonID": 32882,
+									"gleisknotenBisID": 32884,
+									"length": 252
+								}, {
+									"id": 43634,
+									"gleisknotenVonID": 32884,
+									"gleisknotenBisID": 32885,
+									"length": 28
+								}, {
+									"id": 43675,
+									"gleisknotenVonID": 32885,
+									"gleisknotenBisID": 32886,
+									"length": 25
+								}, {
+									"id": 43562,
+									"gleisknotenVonID": 32886,
+									"gleisknotenBisID": 32891,
+									"length": 4592
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 6,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"formation": {
+								"bruttoWeight": 80500.0,
+								"designSpeed": 100,
+								"length": 51.93000030517578,
+								"brakeWeight": 81000,
+								"brakedWeightPercentage": 101,
+								"brakeSystem": "R",
+								"trainBrakeCategory": "A100",
+								"vehicles": [{
+										"identifier": "ABe130 ZB",
+										"description": "SPATZ Brünig (ABe 4/8) Talpendelzug",
+										"type": "Triebzug"
+									}
+								]
+							},
+							"halteposition": 100.061,
+							"haltekanteId": 142188,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 49973,
+							"technischeFahrzeit": 126,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 6,
+							"bedarfZusaetzlicheFahrzeit": 0,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "GSAB"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 60804,
+							"betrieblichAn": 60804,
+							"betriebspunktId": 1649,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 1,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43562,
+									"gleisknotenVonID": 32886,
+									"gleisknotenBisID": 32891,
+									"length": 4592
+								}, {
+									"id": 43559,
+									"gleisknotenVonID": 32891,
+									"gleisknotenBisID": 32893,
+									"length": 40
+								}, {
+									"id": 43673,
+									"gleisknotenVonID": 32893,
+									"gleisknotenBisID": 32897,
+									"length": 38
+								}, {
+									"id": 43685,
+									"gleisknotenVonID": 32897,
+									"gleisknotenBisID": 32899,
+									"length": 37
+								}, {
+									"id": 43484,
+									"gleisknotenVonID": 32899,
+									"gleisknotenBisID": 32906,
+									"length": 215
+								}
+							],
+							"halte": [],
+							"halteposition": 2728.39218,
+							"haltekanteId": 43562,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7915,
+							"technischeFahrzeit": 108,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 144,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "RUED"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 61086,
+							"betrieblichAn": 61062,
+							"betriebspunktId": 3722,
+							"fahrtrichtungswechsel": false,
+							"hgbpHauptgleis": 8790,
+							"reihenfolge": 2,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43484,
+									"gleisknotenVonID": 32899,
+									"gleisknotenBisID": 32906,
+									"length": 215
+								}, {
+									"id": 43532,
+									"gleisknotenVonID": 32906,
+									"gleisknotenBisID": 32925,
+									"length": 1609
+								}, {
+									"id": 43724,
+									"gleisknotenVonID": 32925,
+									"gleisknotenBisID": 32926,
+									"length": 198
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 50,
+							"haltekanteId": 43484,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 8909,
+							"technischeFahrzeit": 108,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": -18,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "HEAB"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 61206,
+							"betrieblichAn": 61182,
+							"betriebspunktId": 1382,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 3,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43724,
+									"gleisknotenVonID": 32925,
+									"gleisknotenBisID": 32926,
+									"length": 198
+								}, {
+									"id": 43881,
+									"gleisknotenVonID": 32926,
+									"gleisknotenBisID": 33092,
+									"length": 2208
+								}, {
+									"id": 43883,
+									"gleisknotenVonID": 33092,
+									"gleisknotenBisID": 33093,
+									"length": 31
+								}, {
+									"id": 43879,
+									"gleisknotenVonID": 32929,
+									"gleisknotenBisID": 33093,
+									"length": 216
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 90,
+							"haltekanteId": 43724,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7917,
+							"technischeFahrzeit": 126,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 6,
+							"bedarfZusaetzlicheFahrzeit": 78,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "WILE"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 61446,
+							"betrieblichAn": 61422,
+							"betriebspunktId": 1379,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 4,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43879,
+									"gleisknotenVonID": 32929,
+									"gleisknotenBisID": 33093,
+									"length": 216
+								}, {
+									"id": 43462,
+									"gleisknotenVonID": 32920,
+									"gleisknotenBisID": 32929,
+									"length": 2561
+								}, {
+									"id": 43601,
+									"gleisknotenVonID": 32920,
+									"gleisknotenBisID": 32921,
+									"length": 168
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 116.92035398230088,
+							"haltekanteId": 43879,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 8834,
+							"technischeFahrzeit": 120,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 0,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "WSTA"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 61572,
+							"betrieblichAn": 61572,
+							"betriebspunktId": 1650,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 5,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43601,
+									"gleisknotenVonID": 32920,
+									"gleisknotenBisID": 32921,
+									"length": 168
+								}, {
+									"id": 43466,
+									"gleisknotenVonID": 32921,
+									"gleisknotenBisID": 32922,
+									"length": 2883
+								}
+							],
+							"halte": [],
+							"halteposition": 68,
+							"haltekanteId": 43601,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7919,
+							"technischeFahrzeit": 72,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 132,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "SULB"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 61806,
+							"betrieblichAn": 61782,
+							"betriebspunktId": 1651,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 6,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43466,
+									"gleisknotenVonID": 32921,
+									"gleisknotenBisID": 32922,
+									"length": 2883
+								}, {
+									"id": 43467,
+									"gleisknotenVonID": 32922,
+									"gleisknotenBisID": 32923,
+									"length": 78
+								}, {
+									"id": 43503,
+									"gleisknotenVonID": 32923,
+									"gleisknotenBisID": 32924,
+									"length": 144
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 1418.1128318584072,
+							"haltekanteId": 43466,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7920,
+							"technischeFahrzeit": 96,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 54,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "ZUEM"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 61986,
+							"betrieblichAn": 61962,
+							"betriebspunktId": 770,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 7,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43503,
+									"gleisknotenVonID": 32923,
+									"gleisknotenBisID": 32924,
+									"length": 144
+								}, {
+									"id": 43571,
+									"gleisknotenVonID": 32918,
+									"gleisknotenBisID": 32924,
+									"length": 3642
+								}, {
+									"id": 43615,
+									"gleisknotenVonID": 32918,
+									"gleisknotenBisID": 32919,
+									"length": 242
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 123,
+							"haltekanteId": 43503,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7921,
+							"technischeFahrzeit": 168,
+							"fahrzeitReserveAbsolut": 12,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 96,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "UR"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 62286,
+							"betrieblichAn": 62262,
+							"betriebspunktId": 1652,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 8,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43615,
+									"gleisknotenVonID": 32918,
+									"gleisknotenBisID": 32919,
+									"length": 242
+								}, {
+									"id": 46941,
+									"gleisknotenVonID": 32780,
+									"gleisknotenBisID": 32919,
+									"length": 6559
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 101,
+							"haltekanteId": 43615,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7922,
+							"technischeFahrzeit": 102,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": -12,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "JAK"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 62406,
+							"betrieblichAn": 62382,
+							"betriebspunktId": 1380,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 9,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 46941,
+									"gleisknotenVonID": 32780,
+									"gleisknotenBisID": 32919,
+									"length": 6559
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 4829.811561143421,
+							"haltekanteId": 46941,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 9541,
+							"technischeFahrzeit": 108,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 42,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "GONT"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 62586,
+							"betrieblichAn": 62562,
+							"betriebspunktId": 1653,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 10,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 46941,
+									"gleisknotenVonID": 32780,
+									"gleisknotenBisID": 32919,
+									"length": 6559
+								}, {
+									"id": 43725,
+									"gleisknotenVonID": 32780,
+									"gleisknotenBisID": 32782,
+									"length": 43
+								}, {
+									"id": 43611,
+									"gleisknotenVonID": 32782,
+									"gleisknotenBisID": 32791,
+									"length": 125
+								}, {
+									"id": 43471,
+									"gleisknotenVonID": 32791,
+									"gleisknotenBisID": 32792,
+									"length": 34
+								}, {
+									"id": 43588,
+									"gleisknotenVonID": 32792,
+									"gleisknotenBisID": 32799,
+									"length": 140
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 2784.94064010001,
+							"haltekanteId": 46941,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7924,
+							"technischeFahrzeit": 174,
+							"fahrzeitReserveAbsolut": 12,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 204,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "GONB"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 63066,
+							"betrieblichAn": 62976,
+							"betriebspunktId": 771,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 11,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43588,
+									"gleisknotenVonID": 32792,
+									"gleisknotenBisID": 32799,
+									"length": 140
+								}, {
+									"id": 43652,
+									"gleisknotenVonID": 32799,
+									"gleisknotenBisID": 32802,
+									"length": 22
+								}, {
+									"id": 43651,
+									"gleisknotenVonID": 32802,
+									"gleisknotenBisID": 32805,
+									"length": 152
+								}, {
+									"id": 43565,
+									"gleisknotenVonID": 32805,
+									"gleisknotenBisID": 32874,
+									"length": 2664
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 66,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 70,
+							"haltekanteId": 43588,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 8824,
+							"technischeFahrzeit": 96,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": -6,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "APPZ"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 63186,
+							"betrieblichAn": 63162,
+							"betriebspunktId": 1654,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 12,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43565,
+									"gleisknotenVonID": 32805,
+									"gleisknotenBisID": 32874,
+									"length": 2664
+								}, {
+									"id": 43880,
+									"gleisknotenVonID": 32874,
+									"gleisknotenBisID": 32876,
+									"length": 232
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 1495.7240802675585,
+							"haltekanteId": 43565,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7926,
+							"technischeFahrzeit": 84,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 66,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "STEE"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 63366,
+							"betrieblichAn": 63342,
+							"betriebspunktId": 794,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 13,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 43880,
+									"gleisknotenVonID": 32874,
+									"gleisknotenBisID": 32876,
+									"length": 232
+								}, {
+									"id": 119167,
+									"gleisknotenVonID": 32876,
+									"gleisknotenBisID": 88068,
+									"length": 2827
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 137.6680602006689,
+							"haltekanteId": 43880,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7927,
+							"technischeFahrzeit": 84,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 6,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "WEIS"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 63486,
+							"betrieblichAn": 63462,
+							"betriebspunktId": 1655,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 14,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [{
+									"id": 119167,
+									"gleisknotenVonID": 32876,
+									"gleisknotenBisID": 88068,
+									"length": 2827
+								}, {
+									"id": 119165,
+									"gleisknotenVonID": 88066,
+									"gleisknotenBisID": 88068,
+									"length": 39
+								}, {
+									"id": 119168,
+									"gleisknotenVonID": 32860,
+									"gleisknotenBisID": 88066,
+									"length": 126
+								}
+							],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 6,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 1197.5105799999994,
+							"haltekanteId": 119167,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 7928,
+							"technischeFahrzeit": 102,
+							"fahrzeitReserveAbsolut": 6,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 114,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "SCDE"
+						}, {
+							"besetzteEinfahrt": false,
+							"betrieblichAb": 63726,
+							"betrieblichAn": 63708,
+							"betriebspunktId": 772,
+							"fahrtrichtungswechsel": false,
+							"reihenfolge": 15,
+							"unterbruch": false,
+							"wahlstrecke": false,
+							"gleiskantenToNext": [],
+							"halte": [{
+									"halteart": "UNBEDINGTER_HALT",
+									"mindesthaltezeit": 18,
+									"haltezeitReserve": 0,
+									"zugabfertigungszeit": 0,
+									"haltezwecke": [{
+											"syfaCode": 11,
+											"netsCode": "11"
+										}
+									],
+									"publicated": false
+								}
+							],
+							"halteposition": 20.119815331531647,
+							"haltekanteId": 119168,
+							"halteobjektTyp": "MitteAg",
+							"halteobjektId": 8829,
+							"technischeFahrzeit": 0,
+							"fahrzeitReserveAbsolut": 0,
+							"ausgleichTechnischeFahrzeit": 0,
+							"bedarfZusaetzlicheFahrzeit": 0,
+							"zusaetzlicheFahrzeitReserve": 0,
+							"betriebspunktKuerzel": "WASS"
+						}
+					],
+					"optionstage": false,
+					"orderHistory": []
+				}
+			],
+			"archived": false,
+			"bearbeiter": "u213919",
+			"bearbeitungsDatum": 1507549898000,
+			"beschreibung": "Gsab-Wass (+540 min)",
+			"ersteller": "nets_u115454",
+			"trassenKennzeichen": "T",
+			"trasseKategorie": "D",
+			"trasseKategorieText": "D-Produkt PV (S, Regio)"
+		}
+	],
+	"nextSince": 1544006648089,
+	"numberOfTrassen": 1,
+	"until": "2018-12-05T10:44:08.089Z"
+}
