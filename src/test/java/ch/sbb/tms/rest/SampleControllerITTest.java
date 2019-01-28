@@ -16,10 +16,10 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import ch.sbb.tms.app.GleisBelegungApp;
-import ch.sbb.tms.rest.SampleController;
+import ch.sbb.tms.rest.GleisBelegungController;
 
 /**
- * Integration tests for {@link SampleController}.
+ * Integration tests for {@link GleisBelegungController}.
  *
  * @author
  * @since
